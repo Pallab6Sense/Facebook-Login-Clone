@@ -225,7 +225,7 @@ input:focus::-webkit-input-placeholder {
     display: none;
 }
 
-.hr-lines {
+.m-hr-lines {
     display: none;
 }
 
@@ -234,16 +234,16 @@ input:focus::-webkit-input-placeholder {
         display: none;
     }
 
-    .hr-div {
+    .m-hr-div {
         width: 100%;
     }
 
-    .hr-lines {
+    .m-hr-lines {
         display: block;
         width: 100%;
     }
 
-    .hr-lines:before {
+    .m-hr-lines:before {
         content: " ";
         display: block;
         height: 1px;
@@ -255,7 +255,7 @@ input:focus::-webkit-input-placeholder {
         margin-left: -8px;
     }
 
-    .hr-lines {
+    .m-hr-lines {
         position: relative;
 
         max-width: 500px;
@@ -267,7 +267,7 @@ input:focus::-webkit-input-placeholder {
         margin-left: 5px;
     }
 
-    .hr-lines:after {
+    .m-hr-lines:after {
         content: " ";
         height: 1px;
         width: 45%;
@@ -545,42 +545,43 @@ input:focus::-webkit-input-placeholder {
         display: none;
     }
 
-    .hr-lines {
-        display: block;
+    .m-hr-lines {
+        display:inline-block;
     }
 
-    .hr-lines:before {
+    .m-hr-lines:before {
         content: " ";
-        display: block;
+        display: inline-block;
         height: 1px;
-        width: 48%;
+        width: 47%;
         position: absolute;
         top: 50%;
         left: 0;
         background: #747373;
-        margin-left: -8px;
+        /* margin-right: -100px; */
     }
 
-    .hr-lines {
+    .m-hr-lines {
         position: relative;
 
-        max-width: 500px;
-        margin: 100px auto;
-        margin-left: 10px;
+        max-width: 100%;
+        /* margin: 100px auto; */
+        /* margin-left: 10px; */
         text-align: center;
         margin-top: -10px;
         margin-bottom: -10px;
-        margin-left: 5px;
+        /* margin-left: -5px; */
     }
 
-    .hr-lines:after {
+    .m-hr-lines:after {
         content: " ";
         height: 1px;
         width: 45%;
         background: #747373;
-        display: block;
+        display: inline-block;
         position: absolute;
         top: 50%;
         right: 0;
+        /* margin-left: -10px; */
     }
 }
